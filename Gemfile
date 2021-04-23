@@ -14,6 +14,9 @@ group :production do
 end
 # Use carrierwave to add image files
 gem 'carrierwave'
+gem 'mini_magick'
+gem 'devise'
+gem 'gravtastic'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
